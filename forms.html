@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body dir="rtl">
+
+        <section class="container">
+            <fieldset>
+
+                <legend>موقع ل حجز الكورسات </legend>
+                <form action class="form">
+
+                    <div class="input-box">
+                        <label>الاسم الثلاثي</label>
+                        <input type="text" placeholder="ادخل اسمك الثلاثي"
+                            required>
+                    </div>
+
+                    <div class="input-box">
+                        <label>البريد الالكتروني</label>
+                        <input type="email" placeholder="ادخل البريد الالكتروني"
+                            required>
+                    </div>
+
+                    <div class="column">
+                        <div class="input-box">
+                            <label> رقم الهاتف</label>
+                            <input type="number"
+                                placeholder="ادخل رقم الهاتف  "
+                                required>
+                        </div>
+
+                        <div class="input-box">
+                            <label>كم سنه لك في هذا المجال</label>
+                            <input type="number"
+                                placeholder="من فضلك جاوب" required>
+                        </div>
+                        <div class="input-box">
+                            <label> تاريخ ميلادك</label>
+                            <input type="datetime-local"
+                                placeholder="اذا متحب تكول ف مو ضروري">
+                        </div>
+                    </div>
+
+                    <div class="gender-box">
+                        <h3>ادخل جنسك</h3>
+                        <div class="gender-option">
+                            <div class="gender">
+                                <input type="radio" id="check-male"
+                                    name="gender"
+                                    value="male">
+                                <label for="check-male">ذكر</label>
+                            </div>
+
+                            <div class="gender">
+                                <input type="radio" id="check-female"
+                                    name="gender"
+                                    value="female">
+                                <label for="check-female">انثى</label>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <label> ادخل موقعك</label>
+                        <input type="text" placeholder="في اي محافظه">
+                        <input type="text" placeholder="في اي منطقه">
+                    </div>
+
+                    <div class="select-box">
+                        <h3>ياكورس تريد تسجل اله</h3>
+                        <select name id>
+                            <option value="c++" name="c++">C++</option>
+                            <option value="python" name="python">Python</option>
+                            <option value="php" name="php">Php</option>
+                            <option value="sql" name="sql">Sql</option>
+                            <option value="java" name="java">Java</option>
+                            <option value="c#" name="c#">C#</option>
+                            <option value="js" name="js">Java Script</option>
+
+                        </select>
+                    </div>
+
+                    <div class="input-box">
+                        <textarea type="text" placeholder="هل عندك شيء او ملاحظه تريد قوله لنا "></textarea>
+                    </div>
+                    
+                    <div class="column-sub">
+                        <button type="submit" class="submit"
+                            name="set">ارسال</button>
+                        <button type="reset" class="reset"
+                            name="reset">مسح البيانات</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </body>
+</html>
